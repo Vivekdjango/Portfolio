@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="author" content="Vivek Sinha">
+<meta name="viewpoint" content="width-device-width initial-scale=1">
+
+<title>Sidebar</title>
+
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+
+<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lora|Oswald" rel="stylesheet">
+
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<style>
+.sidebar{
+	background-color:black;
+	padding-bottom:60%;
+}
+.sidebar ul a{
+	color:white;
+	text-decoration: none;
+}
+.glyphicon:before {
+  margin-right: 9px;
+}
+.glyphicon-hand-right:before {
+	margin-left: 9px;
+}
+.examp{
+	color:white;
+	margin-top:50px;
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+	padding: 15px;
+}
+
+.sidebar ul a:hover {
+	background-color: black;
+	color:blue;
+
+}
+.sidebar  img {
+	margin-top:5px;
+            width: 120px;
+            height: 130px;
+
+        }
+img{
+
+	width: 1100px;
+	margin-left:-20px;
+	padding:-60px;
+}
+
+.details {
+    position: absolute; 
+    z-index: 2; 
+    top: 0;
+    color: black;
+   font-family: 'Oswald', sans-serif;	 
+   padding: 10px;	
+}
+</style>
+</head>
+<body>
+<div class="container-fluid">
+<div class="row">
+<div class="col-sm-2 com-md-2 sidebar">
+<ul class="nav nav-sidebar-fixed affix">
+	<li><a href="#"><img src="vivek.jpg" class="media-object img-circle"></a></li>
+	<div class="examp text-uppercase">
+	<li class="active" ><a href="#"><span class="glyphicon glyphicon-home fa-fw"></span>  Home</a></li>
+	<hr >
+	<li><a href="#"><span class="glyphicon glyphicon-user"></span>  Profile</a></li>
+	     <hr >
+        <li><a href="#"><span class="glyphicon glyphicon-briefcase"></span>  Experience <span class="glyphicon glyphicon-hand-right"></span></a></li>
+	     <hr >
+        <li><a href="#"><span class="glyphicon glyphicon-folder-open"></span>  Projects <span class="glyphicon glyphicon-hand-right"></span></a></li>
+	<hr >
+        <li><a href="#"><span class="glyphicon glyphicon-certificate"></span>  Skills</a></li>
+	<hr >
+        <li><a href="#"><span class="glyphicon glyphicon-education"></span> Education</a></li>	
+	<hr>
+	<li><a href="#"><span class="glyphicon glyphicon-envelope"></span>  Contact</a></li>
+	</div>
+</ul>
+</div>
+	<div class="col-sm-10  col-md-10 ">
+	
+	<img class="img-responsive" src="normal_fe245548ffb31fe3c4980bf63975977a.jpg" >
+	  <div class="details">
+    	<h3 class="text-center">Welcome to my world</h3>
+    	<p>Hi, I am Vivek Kumar Sinha</p>   
+  	</div> 
+	</div>
+</div>
+</div>
+</body>
+</html>
